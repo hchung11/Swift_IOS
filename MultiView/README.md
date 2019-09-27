@@ -8,15 +8,16 @@ passing back data to previeous viewConroller.
 transitioning back to the presenting iew controoler.
 
 ```python
-@IBAction func unwind(
+@IBAction func unwind(unwindSegue: UIStoryboardSegue) {
+}
 ```
 # Main ViewController
 User enter the information.
 hit SUBMIT go to next screen(viewController)
-![](git/inclass03First.gif)
+![](gif/inclass03First.gif)
 
 ### Key code 1
-https://github.com/hchung11/Swift_IOS/blob/master/MultiView/MultipleView/ViewController.swift
+https://github.com/hchung11/Swift_IOS/blob/master/MultiView/MultipleView/ViewController.swift<br>
 Send data to ViewControllerSec(next ViewController)
 ``` python
 
@@ -34,11 +35,11 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?)
 ```
 
 # Secound ViewController(Named: ViewControllerSec)
-This viewController can edit user information.
-![](git/inclass03Secound.gif)
+This viewController can edit user information.<br>
+![](gif/inclass03Secound.gif)
 
 ### Key code 2
-https://github.com/hchung11/Swift_IOS/blob/master/MultiView/MultipleView/ViewControllerSec.swift
+https://github.com/hchung11/Swift_IOS/blob/master/MultiView/MultipleView/ViewControllerSec.swift<br>
 <b>This receive fuction from edit buttons </b>
 ``` python
     @IBAction func unwindToVC2(unwindSegue: UIStoryboardSegue) {
@@ -70,9 +71,9 @@ https://github.com/hchung11/Swift_IOS/blob/master/MultiView/MultipleView/ViewCon
     }
 ```
 # Last ViewController for "Edit button"
-Those Edit viewController has own.
+Those Edit viewController has own.<br>
 <b>Send data to Secound viewController(ViewControllerSec)</b>
-![](git/inclass03Third.gif)
+![](gif/inclass03Third.gif)
 
 ### Key word
 <b>Send data to secound ViewController(this is same fuction as Key code 1) </b>
