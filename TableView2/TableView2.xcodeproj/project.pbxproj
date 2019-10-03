@@ -13,6 +13,7 @@
 		85DA604323463AC60015C62F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DA604123463AC60015C62F /* Main.storyboard */; };
 		85DA604523463AC60015C62F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DA604423463AC60015C62F /* Assets.xcassets */; };
 		85DA604823463AC60015C62F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DA604623463AC60015C62F /* LaunchScreen.storyboard */; };
+		85DA605023464B1B0015C62F /* NewCotactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DA604F23464B1B0015C62F /* NewCotactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		85DA604423463AC60015C62F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85DA604723463AC60015C62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85DA604923463AC60015C62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DA604F23464B1B0015C62F /* NewCotactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCotactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				85DA604423463AC60015C62F /* Assets.xcassets */,
 				85DA604623463AC60015C62F /* LaunchScreen.storyboard */,
 				85DA604923463AC60015C62F /* Info.plist */,
+				85DA604F23464B1B0015C62F /* NewCotactViewController.swift */,
 			);
 			path = TableView2;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				85DA604023463AC60015C62F /* ViewController.swift in Sources */,
 				85DA603C23463AC60015C62F /* AppDelegate.swift in Sources */,
 				85DA603E23463AC60015C62F /* SceneDelegate.swift in Sources */,
+				85DA605023464B1B0015C62F /* NewCotactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
