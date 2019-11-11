@@ -15,12 +15,15 @@ import SwiftyJSON
 
 ![](gif/weatherapp.gif)
 
+## JSON
+<br> This link is OpenWeather API Doc https://openweathermap.org/current </br>
+![](https://i.imgflip.com/3fqnaz.jpg)
+
 ## How data transfer API to ViewController
 <br>This graphic tell where data go.</br>
 ![](gif/IMG_0123.jpg)
 
-## JSON
-![](https://i.imgflip.com/3fqnaz.jpg)
+
 
 
 
