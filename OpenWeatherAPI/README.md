@@ -13,7 +13,7 @@ import SwiftyJSON
 
 # Preview for this Application
 
-![](gif/weatherapp.gif)
+![](gif/newOne.gif)
 
 ## JSON
 <br> This link is OpenWeather API Doc https://openweathermap.org/current </br>
